@@ -13,7 +13,7 @@ public class Weapon {
         this.weaponType = weaponType;
     }
 
-    public void attack(){
+    public void attack() {
         System.out.println("Оружие атакует.");
     }
 
