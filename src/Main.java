@@ -10,12 +10,16 @@ public class Main {
         for (Character c : characters) {
             if (warrior1 == c) {
                 System.out.println(c + " " + new Weapon(WeaponType.AXE));
+                c.attack();
             } else if (warrior2 == c) {
                 System.out.println(c + " " + new Weapon(WeaponType.SWORD));
+                c.attack();
             } else if (archer1 == c) {
                 System.out.println(c + " " + new Weapon(WeaponType.BOW));
+                c.attack();
             } else {
                 System.out.println(c + " " + new Weapon(WeaponType.BOW));
+                c.attack();
             }
         }
     }
